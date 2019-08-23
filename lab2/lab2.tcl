@@ -51,3 +51,15 @@ proc finish {} {
 $ns at 0.1ms "$ftp start"
 $ns at 4ms "finish"
 $ns run
+
+#######ALGORITHM##########
+#Created a new instance at simulator  class
+#open 2 files
+#Creating nodes
+#Establish link b/w 2 naodes created
+#Create transport agents and attach it to appropriate node
+#Establish Virtual Connection b/ transport agents
+#Create Traffic agent
+#Connected traffic agent to appropriate transport agent
+#Create finish procedure
+#Establish Simulation Timings
