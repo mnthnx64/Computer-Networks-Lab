@@ -7,8 +7,8 @@ set n0 [$ns node]
 set n1 [$ns node]
 set n2 [$ns node]
 
-$ns duplex-link $n0 $n1 1Mb 8ms DropTail
-$ns duplex-link $n1 $n2 1Mb 8ms DropTail
+$ns duplex-link $n0 $n1 10Mb 1ms DropTail
+$ns duplex-link $n1 $n2 10Mb 4ms DropTail
 
 set tcp1 [new Agent/TCP]
 $ns attach-agent $n0 $tcp1
