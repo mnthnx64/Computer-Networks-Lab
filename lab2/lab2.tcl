@@ -27,6 +27,7 @@
 ##########PROG 3-"Use nam internally with this code##########
 set ns [new Simulator]
 set nf [open sim.nam w]
+
 $ns namtrace-all $nf
 set n0 [$ns node]
 set n1 [$ns node]
